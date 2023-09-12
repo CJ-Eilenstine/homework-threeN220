@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework Three</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="calculator">
+        <form action="">
+          <div class="labels">
+            <label for="">Principle:</label>
+            <label for="">Interest Rate:</label>
+            <label for="">Time:</label>
+          </div>
+          <div class="inputs">
+            <input id="principle" type="number" />
+            <input id="interest-rate" type="number" />
+            <input id="time" type="number" />
+          </div>
+        </form>
+        <input type="button" value="Calculate" />
+      </div>
+      <div class="results">
+        <h1>Your Results</h1>
+        <p id="final-results"></p>
+      </div>
+    </div>
+    <script type="module" src="app/app.js"></script>
+  </body>
+</html>
