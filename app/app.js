@@ -1,7 +1,7 @@
 function calcInt(){
-let num1 = document.getElementById("principle").value;
-let num2 = document.getElementById("interest-rate").value;
-let num3 = document.getElementById("time").value;
+let principal = parseFloat(document.getElementById("principle").value);
+let rate = parseFloat(document.getElementById("interest-rate").value);
+let time = parseFloat(document.getElementById("time").value);
 
 
 }
@@ -9,5 +9,5 @@ let num3 = document.getElementById("time").value;
 
 function changeText() {
 
-document.getElementById("final-results").innerHTML = "With a beginning principle of " + num1;
+document.getElementById("final-results").innerHTML = "With a beginning principle of " + pricipal + " and with a growth rate of " + rate + "% for " + time + " years, your total interest will be $";
 }
